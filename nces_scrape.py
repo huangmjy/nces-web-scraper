@@ -1,6 +1,6 @@
 # Note: runs in Python 3, some code is from https://pruizjunco.wordpress.com/coding/python/
 # Author: Michelle Huang 
-# This script scrapes the NCES website for college undergraduate population and admissions rate information and writes this to a CSS file
+# This script scrapes the NCES website for college undergraduate population and admissions rate information and writes this to a CSV file
 # Note2: need to locate an ipeds_ids.txt file, which contains the ids of all the universities 
 
 from bs4 import BeautifulSoup
